@@ -1,0 +1,110 @@
+
+@font-face {
+	font-family: "TT Interphases W05 Regular";
+	src: url("//fast.fonts.net/dv2/14/abd62851-0b51-47c7-bd7a-856222d8ea49.woff2") format("woff2"),
+		 url("//fast.fonts.net/dv2/3/f00dc763-336e-47c1-bfa5-d265d695d240.woff") format("woff");
+}
+@font-face {
+  font-family: "TT Interphases W05 Bold";
+  src: url("//fast.fonts.net/dv2/14/7cfbfd9d-b8a4-4694-87ba-f820f03efdf8.woff2") format("woff2"),
+       url("//fast.fonts.net/dv2/3/5791e64e-cdd9-41d9-987b-885e692eddfb.woff") format("woff");
+}
+@font-face {
+  font-family: "TT Interphases W05 Light";
+  src: url("//fast.fonts.net/dv2/14/e7d71925-9f28-4acd-a70c-06558d3b1bdd.woff2") format("woff2"),
+       url("//fast.fonts.net/dv2/3/2520990f-5fc1-4abf-b1fa-27c25e010714.woff") format("woff");
+}
+@font-face {
+  font-family: "TT Interphases W05 DemiBold";
+  src: url("//fast.fonts.net/dv2/14/a5465657-97c7-4084-bd02-a1de62302b57.woff2") format("woff2"),
+       url("//fast.fonts.net/dv2/3/bd501e93-17c0-4d39-b5a0-9e544f33c15d.woff") format("woff");
+}
+@font-face {
+  font-family: "TT Interphases W01 DemiBold";
+  src: url("//fast.fonts.net/dv2/14/1aab0453-ce8e-4dab-84ed-092cff65103d.woff2") format("woff2"),
+       url("//fast.fonts.net/dv2/3/79da6beb-f65a-4b1e-ba3a-b48fe878310a.woff") format("woff");
+}
+@font-face {
+  font-family: "TT Interphases W05 Medium";
+  src: url("//fast.fonts.net/dv2/14/cc78796e-0fb0-4736-a202-fccfcc91a49e.woff2") format("woff2"),
+       url("//fast.fonts.net/dv2/3/6ea5645d-7fd4-46ec-9202-4eb78b454858.woff") format("woff");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #eaeaea;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
