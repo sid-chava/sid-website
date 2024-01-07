@@ -388,6 +388,7 @@ main::after {
 		/* Additional paragraph styling if needed */
 	}
 	footer {
+    font-family: 'TT Interphases W05 Regular';
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -403,6 +404,7 @@ main::after {
   }
 
   .footer-right {
+    font-family: 'TT Interphases W05 Regular';
     display: flex;
     align-items: center;
   }
