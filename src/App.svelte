@@ -138,7 +138,7 @@ function updateProjectDetailsHeight() {
 		</header>
 		<p>
 			<!-- Your about paragraph text goes here -->
-			Hello! My name is Sid and I am a sophomore at NYU double majoring in computer science and business. Previously, I've work as Growth @ DECKO, and Operations @ Consensys Mesh. Currently, I'm Post-Mentorship Lead for NYU Strategic Venture Society (NYU Stern's premier venture capital and tech club), where I provide advisory, research, diligence, and sourcing services to venture firms. Fast-paced environments and multi-disciplinary roles are where I thrive. I'm also learning software development - my first project is this website! When I have free time, me visiting art galleries around NYC, watching the Portland Trailblazers (my hometown team), or playing playing poker with friends. 
+			Hello! My name is Sid and I am a sophomore at NYU double majoring in computer science and business. Previously, I've work as Growth @ DECKO, and Operations @ Consensys Mesh. Currently, I'm Post-Mentorship Lead for NYU Strategic Venture Society (NYU Stern's premier venture capital and tech club), where I provide advisory, research, diligence, and sourcing services to venture firms. Fast-paced environments and multi-disciplinary roles are where I thrive. I'm also learning software development - my first project is this website! When I have free time, I enjoy visiting art galleries around NYC, watching the Portland Trailblazers (my hometown team), or playing playing poker with friends. 
 			<br>
 			<br>
 			I'm always looking for opportunities to learn, grow, and build. Feel free to reach out and let's chat!
