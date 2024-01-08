@@ -441,16 +441,20 @@ main::after {
     	column-count: 1;
   	}
 	  header {
+      flex-direction: center;
+      justify-content: center;
     align-items: center;
     padding-top: 0.5em;
   }
 
   name {
+    text-align: center;
     font-family: 'TT Interphases W05 Regular', sans-serif;
-    font-size: 1.2rem; /* Smaller font size for name */
+    font-size: 1rem; /* Smaller font size for name */
   }
 
   #navbar {
+    display: none;
     padding: 0;
   }
 
@@ -459,7 +463,7 @@ main::after {
   }
 
   #navbar li {
-    padding: 0 10px; /* Reduce space between navigation items */
+    padding: 0 5px; /* Reduce space between navigation items */
   }
 
   /* Adjustments for Intro Section */
@@ -485,14 +489,20 @@ main::after {
 
   /* Adjustments for Footer */
   footer {
-    text-align: center; /* Center align footer content */
+    justify-content: center;
+   flex-direction: center; /* Center align footer content */
   }
 
-  .footer-right {
+  .footer-left {
+    display: none;
   }
 
   .footer-right ul {
     justify-content: center; /* Center align navigation items */
+    padding: 10px;
+  }
+  .footer-right li {
+    padding:5px;
   }
 	}
 	
