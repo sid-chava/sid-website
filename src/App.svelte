@@ -97,7 +97,7 @@ function updateProjectDetailsHeight() {
 		  <li><a href="https://drive.google.com/file/d/179UDRaI889V_sKVV7xhqBzMhCjSK7gl7/view?usp=sharing">Resume</a></li>
 		  <!-- Links to LinkedIn, GitHub, and Email with respective icons -->
 		  <li><a href="https://www.linkedin.com/in/sid-chava-19066a232/" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a></li>
-		  <li><a href="https://github.com/sid-chava" target="_blank"><img src="/Images/github.png" alt="GitHub"></a></li>
+		  <li><a href="https://github.com/your-github/" target="_blank"><img src="/Images/github.png" alt="GitHub"></a></li>
 		  <li><a href="mailto:siddarth.chava@stern.nyu.edu"><img src="/Images/email.png" alt="Email"></a></li>
 		</ul>
 	  </nav>
@@ -111,7 +111,7 @@ function updateProjectDetailsHeight() {
 		<br><br>
 		</div>
 		<div class="h10">
-			<h10>Here is some of my recent work:</h10>
+			<h10>Here's what I have been working on lately</h10>
 			</div>
 	</section>
   
@@ -133,9 +133,9 @@ function updateProjectDetailsHeight() {
 		{/each}
 	</section>
 	<section id="about">
-		<header>
-			<h2>About Me</h2>
-		</header>
+		<about>
+			<headerh2>About Me</headerh2>
+    </about>
 		<p>
 			<!-- Your about paragraph text goes here -->
 			Hello! My name is Sid and I am a sophomore at NYU double majoring in computer science and business. Previously, I've work as Growth @ DECKO, and Operations @ Consensys Mesh. Currently, I'm Post-Mentorship Lead for NYU Strategic Venture Society (NYU Stern's premier venture capital and tech club), where I provide advisory, research, diligence, and sourcing services to venture firms. Fast-paced environments and multi-disciplinary roles are where I thrive. I'm also learning software development - my first project is this website! When I have free time, I enjoy visiting art galleries around NYC, watching the Portland Trailblazers (my hometown team), or playing playing poker with friends. 
@@ -229,7 +229,7 @@ main::after {
   
 	/* Name styling */
 	name {
-    font-family: 'TT Interphases W05 Medium';
+    font-family: 'TT Interphases W05 Medium', sans-serif;
 	  color: black;
 	  font-size: 1.8rem;
 	  margin: 0;
@@ -239,7 +239,7 @@ main::after {
   
 	/* Navigation bar styling */
 	#navbar {
-    font-family: 'TT Interphases W05 Regular';
+    font-family: 'TT Interphases W05 Regular', sans-serif;
 	  display: flex;
 	  list-style: none;
 	  margin: 0;
@@ -269,7 +269,7 @@ main::after {
   
 	/* Introduction section styling */
 	#intro {
-    font-family: 'TT Interphases W05 Medium';
+    font-family: 'TT Interphases W05 Medium', sans-serif;
 	  padding-top: 90px;
 	  padding-right: 30%;
 	  text-align: left;
@@ -286,7 +286,7 @@ main::after {
 	}
 
 	.h10 h10 {
-    font-family: 'TT Interphases W05 Regular';
+    font-family: 'TT Interphases W05 Regular', sans-serif;
 		color: black;
 		font-size: 1.4rem;
 	}
@@ -371,24 +371,25 @@ main::after {
 	#about {
 		padding-top: 20px;
 		padding-bottom:20px;
+    margin-bottom: 20px;
     text-align: left;
 	}
 
-	#about header h2 {
-    font-family: 'TT Interphases W05 DemiBold';
-		color: #0019a8; /* Adjust the color as needed */
-		font-size: 2.5rem; /* Adjust font size as needed */
-		margin-bottom: 10px; /* Space between header and paragraph */
+	#about headerh2 {
+    font-family: 'TT Interphases W05 DemiBold', sans-serif;
+		color: #0019a8;
+	  font-size: 3rem;
+    font-weight: light;
 	}
 
 	#about p {
+    padding-top: 30px;
 		font-size: 1rem; /* Adjust font size as needed */
 		color: #333; /* Adjust text color as needed */
 		line-height: 1.6; /* Adjust line height for better readability */
 		/* Additional paragraph styling if needed */
 	}
 	footer {
-    font-family: 'TT Interphases W05 Regular';
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -404,7 +405,7 @@ main::after {
   }
 
   .footer-right {
-    font-family: 'TT Interphases W05 Regular';
+    font-family: "TT Interphases W05 Regular", sans-serif;
     display: flex;
     align-items: center;
   }
@@ -440,14 +441,13 @@ main::after {
     	column-count: 1;
   	}
 	  header {
-    flex-direction: column;
     align-items: center;
     padding-top: 0.5em;
   }
 
   name {
+    font-family: 'TT Interphases W05 Regular', sans-serif;
     font-size: 1.2rem; /* Smaller font size for name */
-    padding-bottom: 0.5em; /* Space between name and navigation bar */
   }
 
   #navbar {
@@ -468,24 +468,27 @@ main::after {
     text-align: center; /* Center align text */
   }
 
-  .h3 h3, .h10 h10 {
+  .h3 h3 {
     font-size: 1.8rem; /* Smaller font size for headings */
+  }
+  .h10 h10 {
+    font-size: 1.2rem; /* Smaller font size for headings */
   }
 
   /* Adjustments for About Section */
   #about {
+    box-shadow:inset 0 0 100px rgba(32, 3, 252, 0.051); /* Inner shadow for depth */
+    flex-direction: column;
     text-align: center; /* Center align text */
-    padding: 10px 15px; /* Adjust padding */
+    padding: 20px 20px; /* Adjust padding */
   }
 
   /* Adjustments for Footer */
   footer {
-    flex-direction: column;
     text-align: center; /* Center align footer content */
   }
 
   .footer-right {
-    margin-top: 10px;
   }
 
   .footer-right ul {
