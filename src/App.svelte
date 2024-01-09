@@ -97,7 +97,7 @@ function updateProjectDetailsHeight() {
 		  <li><a href="https://drive.google.com/file/d/179UDRaI889V_sKVV7xhqBzMhCjSK7gl7/view?usp=sharing">Resume</a></li>
 		  <!-- Links to LinkedIn, GitHub, and Email with respective icons -->
 		  <li><a href="https://www.linkedin.com/in/sid-chava-19066a232/" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a></li>
-		  <li><a href="https://github.com/your-github/" target="_blank"><img src="/Images/github.png" alt="GitHub"></a></li>
+		  <li><a href="https://github.com/sid-chava" target="_blank"><img src="/Images/github.png" alt="GitHub"></a></li>
 		  <li><a href="mailto:siddarth.chava@stern.nyu.edu"><img src="/Images/email.png" alt="Email"></a></li>
 		</ul>
 	  </nav>
